@@ -10,8 +10,8 @@ main{
     margin: 0 auto;
     background-color: antiquewhite;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 15vw 70vw 15vw;
+
+    
 }
 
 header, nav, article, footer{
@@ -26,20 +26,20 @@ header, nav, article, footer{
 
 header{
     background-color: blue;
-    grid-column: span 3;
+
 }
 
 nav{
     background-color: aqua;
-    grid-column: span 1;
+   
 }
 
 article{
     background-color: blueviolet;
-    grid-column: span 2;
+    
 }
 
 footer{
     background-color: burlywood;
-    grid-column: span 3;
+    
 }
